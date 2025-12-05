@@ -1,13 +1,7 @@
 #include "dialog.h"
 #include <QApplication>
 
-/*
-# ---------------------------
-# - Ad-Soyad: Mohamed Hamdo
-# - Öğrenci num: 20010011524
-# - 1.Ödev
-# ---------------------------
-*/
+
 
 int main(int argc, char *argv[])
 {
@@ -16,3 +10,4 @@ int main(int argc, char *argv[])
     w.show();
     return a.exec();
 }
+
