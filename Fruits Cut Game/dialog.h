@@ -1,13 +1,6 @@
 #ifndef DIALOG_H
 #define DIALOG_H
 
-/*
-# ---------------------------
-# - Ad-Soyad: Mohamed Hamdo
-# - Öğrenci num: 20010011524
-# - 1.Ödev
-# ---------------------------
-*/
 
 #include <QDialog>
 
@@ -61,3 +54,4 @@ private:
     QList<QPushButton*> Karpuz_Liste; // fonkisyon KarpuzYarat()'den oluşturulan karpuzları saklayacak bir dizi
 };
 #endif // DIALOG_H
+
