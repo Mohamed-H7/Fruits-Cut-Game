@@ -1,14 +1,5 @@
 #include "dialog.h"
 #include "ui_dialog.h"
-
-/*
-# ---------------------------
-# - Ad-Soyad: Mohamed Hamdo
-# - Öğrenci num: 20010011524
-# - 1.Ödev
-# ---------------------------
-*/
-
 /*
 # ---------- NOTLAR ----------
 # 1) Kullanılan ekranın boyutları: 1350 x 750
@@ -26,8 +17,8 @@
      (dialog.h) dosyasını görebilirsiniz.
 */
 
-QString Dosya1 = "C:\\Users\\mhmdm\\Desktop\\Programming\\Qt\\Odevler\\Odev1\\konumlar.txt";
-QString Dosya2 = "C:\\Users\\mhmdm\\Desktop\\Programming\\Qt\\Odevler\\Odev1\\skorlar.txt";
+QString Dosya1 = "konumlar.txt";
+QString Dosya2 = "skorlar.txt";
 
 Dialog::Dialog(QWidget *parent)
     : QDialog(parent), ui(new Ui::Dialog)
@@ -372,4 +363,5 @@ int main(int argc, char *argv[])
     Dialog w;
     w.show();
     return a.exec();
+
 }
